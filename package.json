@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "install-be": "cd CRUDSiswa-api && composer install && cp .env.example .env && php artisan key:generate && cd ..",
+        "install-fe": "cd feCRUDSiswa && composer install && cp .env.example .env && php artisan key:generate && cd .."
+    }
+}
